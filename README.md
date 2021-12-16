@@ -4,49 +4,49 @@
 
  Clone repository  to working directory
 
-:fa-minus:
+&mdash;
 
 >git status
 
 Show files status
 
-:fa-minus:
+&mdash;
 
 >git add filename.js
 
 Add a file to staging area
 
-:fa-minus:
+&mdash;
 
 >git reset head filename.js
 
 Undo add a file to staging area
 
-:fa-minus:
+&mdash;
 
 >git add .
 
 Add all files
 
-:fa-minus:
+&mdash;
 
 >git commit -m "init file"
 
 Descried what you do after that The files will be moved from staging area to local repo
 
-:fa-minus:
+&mdash;
 
 >git branch
 
 Show branchs on local repo
 
-:fa-minus:
+&mdash;
 
 >git remote -v
 
 Show remotes
 
-:fa-minus:
+&mdash;
 
 >git push remote_name branch_name
 
