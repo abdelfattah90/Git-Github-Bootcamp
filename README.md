@@ -1,4 +1,4 @@
-### The most used commands
+## The most used commands
 
 > git clone repo_url
 
@@ -51,3 +51,10 @@ Show remotes
 >git push remote_name branch_name
 
 git push origin master
+
+&mdash;
+
+>git pull origin
+
+Pulling all file or a new files from repository to working directory
+
