@@ -100,3 +100,7 @@ Remove email account from the device
 
 confirm email
 
+------------
+------------
+
+<img align="center" src="https://raw.githubusercontent.com/abdelfattah90/The-Most-Git-Commands-Used/main/git.png" alt="git" />
