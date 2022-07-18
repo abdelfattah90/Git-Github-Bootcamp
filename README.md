@@ -100,6 +100,12 @@ Remove email account from the device
 
 confirm email
 
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
+
+>git revert 3321844
+
+Undo the changes that we've made <sha1 of commit>
+
 ------------
 ------------
 
