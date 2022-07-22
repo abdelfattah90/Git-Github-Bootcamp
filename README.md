@@ -22,21 +22,35 @@
 
 - Add a file to staging area
 
-> git reset head filename.js
-
-- Undo add a file to staging area
-
 #
 
 > git commit -m "init file"
 
 - Descried what you do after that The files will be moved from staging area to local repo
 
+> git log
+
+- git list of commits
+
+#
+
+> git reset head filename.js
+
+- Undo add a file to staging area
+
+> git reset --soft HEAD~1
+
+- git revert last commit
+
 #
 
 > git remote add origin url_repo
 
 - Add files to repo
+
+> git remote -v
+
+- Show remotes
 
 #
 
@@ -64,23 +78,9 @@
 
 - push a new branch
 
-#
-
 > git branch
 
 - Show branchs on local repo
-
-#
-
-> git remote -v
-
-- Show remotes
-
-#
-
-> git revert 3321844
-
-- Undo the changes that we've made CommitSha1
 
 #
 
@@ -88,19 +88,13 @@
 
 - Show all configurations commands
 
-#
-
 > git config --global user.email
 
 - Show email
 
-#
-
 > git config --global --unset user.email
 
 - Remove email account from the device
-
-#
 
 > git config --global user.email "email@gmail.com"
 
