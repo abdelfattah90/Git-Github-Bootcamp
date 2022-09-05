@@ -82,6 +82,11 @@
 
 - Show branchs on local repo
 
+> git push origin --delete branchName
+
+- Delete branch from repo
+
+
 #
 
 > git config -l --show-origin
