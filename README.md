@@ -1,109 +1,154 @@
 ## The most git commands used
 
-> git init
+#
 
-- Initialization git in working directory
+Initialization git in working directory
 
-> git clone repo_url
+```
+git init
+```
 
-- Clone repository to working directory
+Clone repository to working directory
 
-> git status
+```
+git clone repo_url
+```
 
-- Show files status
+Show files status
+
+```
+git status
+```
 
 #
 
-> git add .
+Add all files
 
-- Add all files
+```
+git add .
+```
 
-> git add filename.js
+Add a file to staging area
 
-- Add a file to staging area
-
-#
-
-> git commit -m "init file"
-
-- Descried what you do after that The files will be moved from staging area to local repo
-
-> git log
-
-- git list of commits
+```
+git add filename.js
+```
 
 #
 
-> git reset head filename.js
+Descried what you do after that The files will be moved from staging area to local repo
 
-- Undo add a file to staging area
+```
+git commit -m "init file"
+```
 
-> git reset --soft HEAD~1
+git list of commits
 
-- git revert last commit
-
-#
-
-> git remote add origin url_repo
-
-- Add files to repo
-
-> git remote -v
-
-- Show remotes
+```
+git log
+```
 
 #
 
-> git pull origin
+Undo add a file to staging area
 
-- Pulling all file or a new files from repository to working directory
+```
+git reset head filename.js
+```
 
-#
+git revert last commit
 
-> git push remote_name branch_name
-
-- push origin master
-
-> git push -u origin master
-
-- -u = pull and push files to repo
+```
+git reset --soft HEAD~1
+```
 
 #
 
-> git checkout -b branchName
+Add files to repo
 
-- create a new branch
+```
+git remote add origin url_repo
+```
 
-> git push origin branchName
+Show remotes
 
-- push a new branch
+```
+git remote -v
+```
 
-> git branch
+#
 
-- Show branchs on local repo
+Pulling all file or a new files from repository to working directory
 
-> git push origin --delete branchName
+```
+git pull origin
+```
 
-- Delete branch from repo
+#
+
+push origin master
+
+```
+git push remote_name branch_name
+```
+
+```
+git push -u origin master
+```
+-u = pull and push files to repo
 
 
 #
 
-> git config -l --show-origin
+create a new branch
 
-- Show all configurations commands
+```
+git checkout -b branchName
+```
 
-> git config --global user.email
+push a new branch
 
-- Show email
+```
+git push origin branchName
+```
 
-> git config --global --unset user.email
+Show branchs on local repo
 
-- Remove email account from the device
+```
+git branch
+```
 
-> git config --global user.email "email@gmail.com"
+Delete branch from repo
 
-- confirm email
+```
+git push origin --delete branchName
+```
+
+#
+
+Show all configurations commands
+
+```
+git config -l --show-origin
+```
+
+Show email
+
+```
+git config --global user.email
+```
+
+Remove email account from the device
+
+```
+git config --global --unset user.email
+```
+
+confirm email
+
+```
+git config --global user.email "email@gmail.com"
+```
 
 #
 
